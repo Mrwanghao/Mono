@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETPortable,Version=v4.5,Profile=Profile111": []
+  },
+  "packageFolders": {
+    "/Users/wanghao/.nuget/packages/": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "/Users/wanghao/Documents/GitHub/EluosiBlock/3rd/Nez.Portable/Nez.csproj",
+      "projectName": "Nez",
+      "projectPath": "/Users/wanghao/Documents/GitHub/EluosiBlock/3rd/Nez.Portable/Nez.csproj",
+      "projectJsonPath": "/Users/wanghao/Documents/GitHub/EluosiBlock/3rd/Nez.Portable/project.json",
+      "packagesPath": "/Users/wanghao/.nuget/packages/",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "/Users/wanghao/.config/NuGet/NuGet.Config"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "portable45-net45+win8+wpa81": {}
+    }
+  }
+}
