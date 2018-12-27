@@ -13,12 +13,14 @@ public class MainGameMenu : Menu
         base.initialize();
 
         m_mainPlayerEntity = Core.scene.findEntity("Main Player");
+
         m_showMainPlayerPositionLabel = new Label("hello world", new LabelStyle(Graphics.instance.bitmapFont, Color.DarkRed));
-        m_table.addElement(m_showMainPlayerPositionLabel);
         m_showMainPlayerPositionLabel.setPosition(0.0f, 0.0f);
         m_showMainPlayerPositionLabel.setPosition(Globals.WINDOW_WIDTH-200, Globals.WINDOW_HEIGHT-40);
         m_showMainPlayerPositionLabel.setSize(100, 40);
         m_showMainPlayerPositionLabel.setFontScale(3);
+        m_table.addElement(m_showMainPlayerPositionLabel);
+
     }
 
     private void UpdatePlayerLocationShow()

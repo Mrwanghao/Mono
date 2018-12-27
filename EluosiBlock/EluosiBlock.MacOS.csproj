@@ -72,6 +72,8 @@
     <Compile Include="UI\UIManager.cs" />
     <Compile Include="UI\Menu.cs" />
     <Compile Include="UI\MainGameMenu.cs" />
+    <Compile Include="System\Constructor.cs" />
+    <Compile Include="System\Task.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -109,6 +111,7 @@
     <Folder Include="Components\" />
     <Folder Include="Controllers\" />
     <Folder Include="UI\" />
+    <Folder Include="System\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
